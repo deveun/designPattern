@@ -7,3 +7,4 @@ Building Extensible & Maintainable Object-Oriented Software
 ### Chapter2. Observer Pattern - [Weather](weatherStation)
 ### Chapter3. Decorator Pattern - [Cafe](cafe)
 ### Chapter4. Factory Pattern - [PizzaStore](pizzaStore)
+### Chapter5. Singleton Pattern - [ChocolateBoiler](chocolateBoiler)
