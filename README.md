@@ -8,3 +8,4 @@ Building Extensible & Maintainable Object-Oriented Software
 ### Chapter3. Decorator Pattern - [Cafe](cafe)
 ### Chapter4. Factory Pattern - [PizzaStore](pizzaStore)
 ### Chapter5. Singleton Pattern - [ChocolateBoiler](chocolateBoiler)
+### Chapter6. Command Pattern - [RemoteControl](remoteControl)
