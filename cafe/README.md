@@ -28,6 +28,10 @@ public class Super {
         this.condiment2 = condiment2;
     }
     
+    public double hasCondiment1() {
+        return condiment1 ? 500 : 0;
+    }
+    
     public double cost() {
         // hasCondiment method에 따라 price를 구함
     }
@@ -35,7 +39,7 @@ public class Super {
 
 public class Sub {
     
-    private boolean subPrice;
+    private double subPrice;
     
     public double cost() {
         return super.cost() + subPrice;
@@ -46,7 +50,7 @@ public class Main {
     
     public static void main(String[] args) {
         Sub sub = new Sub();
-        sub.setCondiment1()true);
+        sub.setCondiment1(true);
         double price = sub.cost();
     }
 }
@@ -57,7 +61,7 @@ public class Main {
 ### [3번구현] Decorator Pattern --- :white_check_mark:
 * 첨가물을 모두 Beverage의 하위클래스로 선언
 * Beverage 클래스를 Beverage 데코레이터로 감싸는 것
-* (정) 객체에 추가 요소를 동적으로 더할 수 있고, 행동을 위임할 뿐만 아니라 추가 작업을 수행할 수 있음
+* (장) 객체에 추가 요소를 동적으로 더할 수 있고, 행동을 위임할 뿐만 아니라 추가 작업을 수행할 수 있음
 * (장) 기존 코드는 건드리지 않아 코드 수정에 따른 버그나 의도하지 않은 부작용을 원천봉쇄
 * (단) 구상 구성 요소로 특정 작업을 처리하는것이 어려워짐 (데코레이터로 감싸고나면 그 커피가 하우스블렌드인지 다크 로스트인지 알 수 없음)
 * java.io 클래스 - `BufferedInputStream`, `ZipInputStream`, `FileInputStream`도 해당 패턴에 포함됨
