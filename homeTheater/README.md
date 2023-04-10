@@ -7,6 +7,7 @@
 ### TO-BE
 ![img_1.png](img_1.png)
 
+## Facade Pattern
 * Facade 클래스에 관련있는 모든 서브시스템 요소를 포함
 * 통합 인터페이스를 구성
 * 클라이언트는 Facade 클래스만으로도 복잡한 작업을 한번에!
