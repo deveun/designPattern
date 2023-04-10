@@ -10,3 +10,4 @@ Building Extensible & Maintainable Object-Oriented Software
 ### Chapter5. Singleton Pattern - [ChocolateBoiler](chocolateBoiler)
 ### Chapter6. Command Pattern - [RemoteControl](remoteControl)
 ### Chapter7_1. Adaptor Pattern - [DuckAdaptor](duckAdapter)
+### Chapter7_2. Facade Pattern - [HomeTheater](homeTheater)
